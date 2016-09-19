@@ -22,6 +22,7 @@
   }
 
   .header__menu {
+    color: #E0E0E0;
     cursor: pointer;
     display: inline-block;
     font-size: 2.5em;
@@ -31,7 +32,7 @@
   }
 
   /*
-   * Nav
+   * Top Level Navigation
    */
 
   .nav {
@@ -52,5 +53,22 @@
     border-bottom: 1px solid #E0E0E0;
     text-align: left;
     width: 100%;
+  }
+}
+
+
+/*
+ *
+ * Screen > 550px
+ *
+ */
+
+@media screen and (min-width: 550px) {
+  /*
+   * Header
+   */
+
+  .header__menu {
+    display: none;
   }
 }
