@@ -1,5 +1,18 @@
 /*
  *
+ * Content
+ *
+ */
+
+.hero, .top-news,
+.scores, .weather,
+.recent-news {
+  order: 10;
+ }
+
+
+/*
+ *
  * Screen < 550px
  *
  */
@@ -70,5 +83,22 @@
 
   .header__menu {
     display: none;
+  }
+
+  /*
+   * Content
+   */
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hero {
+    order: 0;
+  }
+
+  .weather {
+    order: 1;
   }
 }
