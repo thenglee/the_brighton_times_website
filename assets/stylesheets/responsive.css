@@ -1,0 +1,18 @@
+/*
+ *
+ * Screen <= 549px
+ *
+ */
+
+@media screen and (max-width: 549px) {
+  .nav {
+    background-color: #fff;
+    position: absolute;
+    width: 300px;
+    z-index: 1;
+  }
+
+  .nav__item {
+    display: list-item;
+  }
+}
