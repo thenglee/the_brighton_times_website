@@ -5,6 +5,18 @@
  */
 
 @media screen and (max-width: 549px) {
+
+  .header__logo {
+    height: 48px;
+    margin-right: 0.5em;
+  }
+
+  .header__title {
+    font-size: 2em;
+    margin-left: 0;
+    vertical-align: bottom;
+  }
+
   .nav {
     background-color: #fff;
     position: absolute;
